@@ -3,7 +3,7 @@ const Footer = () => {
       <div className="footer">
         <div>
           <span>Made with </span>
-          <a target="blank" href="https://fr.reactjs.org/">
+          <a target="blank" href="https://react.dev//">
             React
           </a>
           <span> at </span>
