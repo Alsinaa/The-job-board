@@ -2,12 +2,13 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .header {
-  background-color: lightblue;
+  background-color: rgba(0, 0, 0, 0.717);
   height: 80px;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 40px;
 }
 .Jobs {
   width: 1024px;
@@ -16,21 +17,37 @@ body {
   justify-content: space-around;
   margin: 50px auto;
 }
+.Job {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 280px;
+  height: 280px;
+  margin-bottom: 10px;
+}
 
+.Job > span {
+  font-size: 30px;
+}
+
+.Job > div > span {
+  font-size: 18px;
+}
 .red {
-  border: 15px solid red;
+  border: 12px solid red;
 }
 .green {
-  border: 15px solid green;
+  border: 12px solid green;
 }
 .yellow {
-  border: 15px solid yellow;
+  border: 12px solid yellow;
 }
 .blue {
-  border: 15px solid cyan;
+  border: 12px solid cyan;
 }
 .pink {
-  border: 15px solid lightpink;
+  border: 12px solid lightpink;
 }
 
 .footer {
